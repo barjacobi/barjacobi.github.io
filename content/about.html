@@ -1,0 +1,66 @@
+---
+showDate: false
+showReadingTime: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar's Website</title>
+    <style>
+        h2 {
+            padding-left: 10px;
+        }
+        h3 {
+            padding-left: 20px;
+        }
+        p  {
+            padding-left: 30px;
+        }
+        .custom-li {
+            list-style: none;
+            padding-left: 30px;
+        }
+        .custom-li:before {
+            /* For a square bullet */
+            content:'\25A0';
+            position: relative;
+            max-width: 0px;
+            max-height: 0px;
+            font-size: 10px;
+            left: -10px;
+            top: 0px;
+            color: white;
+            vertical-align: 20%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Bar 👋🏻</h1>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <h3>Professional</h3>
+            <ul>
+                <li class="custom-li">Currently pursuing an MSc in Bioinformatics at <a href="https://english.tau.ac.il">Tel Aviv University</a>, with a BSc in Computer Science from the <a href="https://www.technion.ac.il/en/home-2/">Technion.</a></li>
+                    <ul>
+                        <li class="custom-li"> My advisor is <a href="https://www.sternadi.com">Prof. Adi Stern</a>.</li>
+                        <li class="custom-li">My research interests include evolutionary biology and population genetics of viruses, particularly SARS-CoV-2.</li>
+                    </ul>
+                <li class="custom-li">Former Production Engineer at Meta, specializing in system reliability and scalability.</li>
+            </ul>
+        <h3>Personal</h3>
+            <ul>
+                <li class="custom-li"> I live in Ramat Gan (Israel) with my husband and our dog.</li>
+                <li class="custom-li">When it comes to hobbies, I'm a true 'Jack of all trades, master of none.' I enjoy experimenting with gardening, sewing, cross-stitch, cooking, baking, and photography.</li>
+            </ul>
+        <h2>This Website</h2>
+            <ul>
+                <li class="custom-li">A blog/portfolio/CV of sorts.</li>
+            </ul>
+    </section>
+</body>
+</html>
+

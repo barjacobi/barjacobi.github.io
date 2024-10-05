@@ -1,10 +1,19 @@
-title = "Bar Jacobi's Blog"
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Bar Jacobi"
 
 [params.author]
   name = "Bar Jacobi"
   image = "img/avatar.jpg"
-  headline = "A generally awesome human"
-  bio = "A little bit about me"
+  # headline = "A generally awesome human"
+  # bio = "A little bit about me"
   links = [
+    { link = "https://barjacobi.com" },
+    { facebook = "https://www.facebook.com/barstar12" },
+    { instagram = "https://www.instagram.com/barstar12"},
+    { linkedin = "https://www.linkedin.com/in/bar-raveh" },
     { github = "https://github.com/barjacobi" },
   ]
