@@ -1,4 +1,2 @@
 baseURL = 'https://barjacobi.com/'
 languageCode = 'en'
-title = 'My New Hugo Site'
-theme = 'ananke'
