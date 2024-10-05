@@ -1,0 +1,10 @@
+title = "My awesome website"
+
+[params.author]
+name = "Bar Jacobi"
+image = "img/author.jpg"
+headline = "A generally awesome human"
+bio = "A little bit about me"
+links = [
+  { github = "https://github.com/barjacobi" }
+]
