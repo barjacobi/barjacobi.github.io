@@ -11,10 +11,8 @@ title = "Bar Jacobi"
   # headline = "A generally awesome human"
   # bio = "A little bit about me"
   links = [
-    { link = "https://barjacobi.com" },
-    { facebook = "https://www.facebook.com/barstar12" },
-    { instagram = "https://www.instagram.com/barstar12"},
-    { linkedin = "https://www.linkedin.com/in/bar-raveh" },
+    { linkedin = "https://www.linkedin.com/in/bar-jacobi" },
+    { orcid = "https://orcid.org/0009-0002-0638-399X"},
     { github = "https://github.com/barjacobi" },
     { email = "mailto:baraveh@gmail.com" },
   ]
