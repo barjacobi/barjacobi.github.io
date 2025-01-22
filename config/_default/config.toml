@@ -9,13 +9,7 @@ paginate = 10
 theme = 'congo'
 enableRobotsTXT = true
 summaryLength = 0
-
-# This helps Google Search console to index the sitemap.xml properly
-# (hrefs are showing up with the baseURL)
 canonifyURLs = true
-
-# This is to make static content (js/css) available from both noamlerner.com
-# and www.noamlerner.com
 relativeURLs = true
 
 [outputs]
