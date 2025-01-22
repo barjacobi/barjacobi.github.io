@@ -1,0 +1,22 @@
+languageCode = "he"
+languageName = "עברית"
+languageDirection = "rtl"
+weight = 1
+title = "בר יעקבי"
+
+
+[params]
+  dateFormat = "2 January 2006"
+  mainSections = ["posts"]
+
+[params.author]
+  name = "בר יעקבי"
+  image = "img/avatar.jpg"
+  # headline = "A generally awesome human"
+  # bio = "A little bit about me"
+  links = [
+    { linkedin = "https://www.linkedin.com/in/bar-jacobi" },
+    { orcid = "https://orcid.org/0009-0002-0638-399X"},
+    { github = "https://github.com/barjacobi" },
+    { email = "mailto:baraveh@gmail.com" },
+  ]
