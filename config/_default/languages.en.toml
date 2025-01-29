@@ -8,7 +8,7 @@ title = "Bar Jacobi"
 [params.author]
   name = "Bar Jacobi"
   image = "img/avatar.jpg"
-  # headline = "A generally awesome human"
+  headline = "MSc Student @ Tel Aviv University | Bioinformatics"
   # bio = "A little bit about me"
   links = [
     { linkedin = "https://www.linkedin.com/in/bar-jacobi" },
