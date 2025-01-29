@@ -12,7 +12,7 @@ title = "בר יעקבי"
 [params.author]
   name = "בר יעקבי"
   image = "img/avatar.jpg"
-  # headline = "A generally awesome human"
+  headline = "סטודנטית לתואר שני באוניברסיטת תל אביב | ביואינפורמטיקה"
   # bio = "A little bit about me"
   links = [
     { linkedin = "https://www.linkedin.com/in/bar-jacobi" },
