@@ -4,7 +4,6 @@ date: 2025-02-22T12:19:00+03:00
 summary: "Setting up a monitoring stack with Prometheus and Grafana without sudo."
 description: "Setting up a monitoring stack with Prometheus and Grafana without sudo."
 ---
-
 The lab I'm working at has a shared server, and storage space is always a concern.
 - 'How much space is left in each directory?' 
 - 'Which directories are the largest?' 
@@ -23,7 +22,7 @@ The goal was simple: monitor the storage usage across multiple directories on th
 - **View available and used space**: I wanted to see exactly how much space was free and used across the server's directories.
 - **Do it all without `sudo`**: Since I didn’t have administrative privileges, I had to set everything up as user-level services.
 
-Using Prometheus and Grafana might be overkill for a simple task, but as a production engineer, I couldn't resist the opportunity to play with the tools I know and love.
+Using Prometheus and Grafana might be overkill for a simple task, but as an ex-production engineer, I couldn't resist the opportunity to play with the tools I know and love.
 
 With these goals in mind, I set up the whole stack without needing `sudo`, and I even had a nice dashboard to visualize everything in Grafana!
 
@@ -169,9 +168,14 @@ Finally, I set up **Grafana**, which I use to visualize the metrics collected by
 Access Grafana at `http://localhost:3000`. You can log in with the default credentials: `admin`/`admin`.
 
 ### Example Dashboard
-With the monitoring stack in place, I created some dashboards. One of them was to visualize storage usage across our multiple storage volumes. I used a stacked bar chart, where each device had a bar showing both used (in red) and available space (in green). The data was pulled from Prometheus, using the `node_filesystem_avail_bytes` and `node_filesystem_size_bytes` metrics.
+With the monitoring stack in place, I created some dashboards. One of them was to visualize storage usage across our multiple storage volumes. 
 
-I grouped the data by directory, with the X-axis showing device names and the Y-axis representing storage in bytes. The dashboard refreshes every 15 seconds for up-to-date information.
+
+![](dashboard.png)
+
+I used a stacked bar chart, where each device had a bar showing both used (in red) and available space (in green). The data was pulled from Prometheus, using the `node_filesystem_avail_bytes` and `node_filesystem_size_bytes` metrics.
+
+I grouped the data by directory, with the X-axis showing device names and the Y-axis representing storage in bytes. I blacked out the directory names in this picture.
 
 ## Conclusion
 And that’s it! I now have a complete monitoring stack running without `sudo`. 
