@@ -11,9 +11,13 @@ The lab I'm working at has a shared server, and storage space is always a concer
 
 These types of questions come up frequently, and we needed a clear way to get a snapshot of the storage situation.
 
+## The Challenge
+
 Since I didn’t have sudo access, I couldn’t install monitoring tools or modify system-wide configurations. So, I had to come up with a solution that didn't require administrative privileges.
 
-I decided to set up a monitoring stack using Node Exporter, Prometheus, and Grafana to track where space was being used. This might be an overkill for a simple task, but as an ex-production engineer, I couldn't resist the opportunity to play with the tools I know and love. Here’s how I went about doing it.
+I decided to set up a monitoring stack using **Node Exporter**, **Prometheus**, and **Grafana** to track where space was being used. 
+
+This might be an overkill for a simple task, but as an ex-production engineer, I couldn't resist the opportunity to play with the tools I know and love. Here’s how I went about doing it.
 
 ## The Setup
 
@@ -26,7 +30,7 @@ Before diving into the setup, you’ll need the following:
 
 ### Setting Up Node Exporter
 
-The first piece of the puzzle was **Node Exporter**, which collects system-level metrics such as storage, CPU usage, and memory. However, because we were dealing with a firewall, I couldn’t directly access the server’s metrics via the browser. To get around this, I used **SSH port binding** to forward the necessary port.
+The first piece of the puzzle was **Node Exporter**, which collects system-level metrics such as storage, CPU usage, and memory. 
 
 #### Installing Node Exporter as a User-Level Service
 
@@ -175,12 +179,6 @@ And that’s it! I now have a complete monitoring stack running without `sudo`.
 
 Since everything runs as user-level services, I don't need root access. Plus, it’s all wrapped up in a shiny Grafana dashboard.
 
-If you want to add more metrics or create additional dashboards, Grafana makes it super easy to customize. You can add panels for:
-
-- CPU usage
-- Memory
-- Network traffic
-
-The possibilities are endless. Now that the system is set up, adding new monitoring services is as easy as tweaking a few configuration files.
+If you want to add more metrics or create additional dashboards, Grafana makes it super easy to customize. Now that the system is set up, adding new monitoring services is as easy as tweaking a few configuration files.
 
 Happy monitoring!
