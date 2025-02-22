@@ -13,18 +13,7 @@ These types of questions come up frequently, and we needed a clear way to get a 
 
 Since I didn’t have sudo access, I couldn’t install monitoring tools or modify system-wide configurations. So, I had to come up with a solution that didn't require administrative privileges.
 
-I decided to set up a monitoring stack using Node Exporter, Prometheus, and Grafana to track where space was being used. Here’s how I went about doing it.
-
-## The Challenge
-
-The goal was simple: monitor the storage usage across multiple directories on the server. However, since I didn’t have root privileges, I couldn’t install tools globally or modify system-wide settings. So, I had to get a bit creative. Here’s what I was trying to achieve:
-
-- **View available and used space**: I wanted to see exactly how much space was free and used across the server's directories.
-- **Do it all without `sudo`**: Since I didn’t have administrative privileges, I had to set everything up as user-level services.
-
-Using Prometheus and Grafana might be overkill for a simple task, but as an ex-production engineer, I couldn't resist the opportunity to play with the tools I know and love.
-
-With these goals in mind, I set up the whole stack without needing `sudo`, and I even had a nice dashboard to visualize everything in Grafana!
+I decided to set up a monitoring stack using Node Exporter, Prometheus, and Grafana to track where space was being used. This might be an overkill for a simple task, but as an ex-production engineer, I couldn't resist the opportunity to play with the tools I know and love. Here’s how I went about doing it.
 
 ## The Setup
 
