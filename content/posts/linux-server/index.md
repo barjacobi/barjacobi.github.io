@@ -1,11 +1,9 @@
 ---
 title: "My Dual-Boot Linux Media Server Setup"
-date: 2025-05-08T14:00:43+03:00
+date: 2025-05-08T14:40:43+03:00
 summary: "Resurrecting My Gaming Rig: How I Turned It Into a Dual-Boot Linux Multimedia Server"
 description: "Resurrecting My Gaming Rig: How I Turned It Into a Dual-Boot Linux Multimedia Server"
 ---
-
-# Turning My Gaming PC Into a Dual-Boot Linux Media Server
 
 After getting my first big-girl paycheck, I built the gaming PC of my dreams - Ryzen CPU, 32GB of RAM, a solid GPU. I still game when I can, but these days the machine spends more time idle than in use.
 
@@ -112,7 +110,7 @@ Access via:
 * Jellyfin: `http://<tailscale-ip>:8096`
 * PhotoPrism: `http://<tailscale-ip>:2342`
 
-{{< figure src="photo-prism-on-iphone.jpeg" caption="PhotoPrism on my iPhone, accessed over Tailscale. I usually use the [Prismatic](https://apps.apple.com/us/app/prismatic-a-photoprism-client/id6639586495) app for a a more mobile-friendly experience, though the full web interface works too. Shown here: the AI-powered search in action - starring Loki in peak “dog” mode.">}}
+{{< figure src="photo-prism-on-iphone.jpeg" caption="PhotoPrism on my iPhone, accessed over Tailscale. I usually use the [Prismatic](https://apps.apple.com/us/app/prismatic-a-photoprism-client/id6639586495) app for a a more mobile-friendly experience, though the full web interface works too. Shown here: the AI-powered search in action - starring Loki in peak “dog” mode." width="50%" height="50%">}}
 
 
 ---
