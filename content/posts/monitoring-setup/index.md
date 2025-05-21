@@ -1,8 +1,8 @@
 ---
 title: "Quick and Dirty Monitoring Stack"
 date: 2025-02-22T12:19:00+03:00
-summary: "Setting up a monitoring stack with Prometheus and Grafana without sudo."
-description: "Setting up a monitoring stack with Prometheus and Grafana without sudo."
+summary: "Setting up a monitoring stack with Prometheus and Grafana - without sudo."
+description: "Setting up a monitoring stack with Prometheus and Grafana - without sudo."
 ---
 The lab I'm working at has a shared server, and storage space is always a concern.
 - 'How much space is left in each directory?' 

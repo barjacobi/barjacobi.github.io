@@ -1,8 +1,8 @@
 ---
 title: "My Dual-Boot Linux Media Server Setup"
 date: 2025-05-08T14:40:43+03:00
-summary: "Resurrecting My Gaming Rig: How I Turned It Into a Dual-Boot Linux Multimedia Server"
-description: "Resurrecting My Gaming Rig: How I Turned It Into a Dual-Boot Linux Multimedia Server"
+summary: "Resurrecting my gaming rig: How I turned it into a dual-boot Linux multimedia server"
+description: "Resurrecting my gaming rig: How I turned it into a dual-boot Linux multimedia server"
 ---
 
 After getting my first big-girl paycheck, I built the gaming PC of my dreams - Ryzen CPU, 32GB of RAM, a solid GPU. I still game when I can, but these days the machine spends more time idle than in use.
