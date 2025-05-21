@@ -7,7 +7,7 @@ title = "Bar Jacobi"
 
 [params.author]
   name = "Bar Jacobi"
-  image = "img/cartoon_avatar.png"
+  image = "img/avatar.jpg"
   headline = "MSc Student @ Tel Aviv University | Bioinformatics"
   # bio = "A little bit about me"
   links = [
