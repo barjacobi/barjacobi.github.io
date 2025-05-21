@@ -6,7 +6,7 @@ menu: main
 ## Hi, I’m Bar 👋🏻  
 
 ### About Me  
-- I’m an MSc candidate in Bioinformatics at Tel Aviv University, where I work in [Prof. Adi Stern’s lab](https://www.sternadi.com/).  
+- I’m an MSc student in Bioinformatics at Tel Aviv University, where I work in [Prof. Adi Stern’s lab](https://www.sternadi.com/).  
 - My research focuses on evolutionary biology and viral population genetics, with a particular interest in SARS-CoV-2.  
 
 - Before grad school, I was a Production Engineer at Meta, specializing in system reliability and scalability.  
