@@ -21,3 +21,7 @@
   name = "Blog"
   pageRef = "posts"
   weight = 30
+[[main]]
+  name = "Publications"
+  pageRef = "publications"
+  weight = 40
