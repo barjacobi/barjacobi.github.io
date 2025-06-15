@@ -15,7 +15,7 @@
     weight = 10
 [[main]]
     name = "מי אני"
-    pageRef = "about.he.html"
+    pageRef = "about.he.md"
     weight = 20
 [[main]]
   name = "בלוג"

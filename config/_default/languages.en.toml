@@ -12,7 +12,8 @@ title = "Bar Jacobi"
   # bio = "A little bit about me"
   links = [
     { linkedin = "https://www.linkedin.com/in/bar-jacobi" },
-    { orcid = "https://orcid.org/0009-0002-0638-399X"},
     { github = "https://github.com/barjacobi" },
     { email = "mailto:baraveh@gmail.com" },
+    { orcid = "https://orcid.org/0009-0002-0638-399X"},
+    { google-scholar = "https://scholar.google.com/citations?user=Pjly-lwAAAAJ"},
   ]

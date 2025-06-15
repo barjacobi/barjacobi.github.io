@@ -1,7 +1,6 @@
 ---
 showDate: false  
 showReadingTime: false  
-menu: main  
 ---
 ## Hi, I’m Bar 👋🏻  
 
