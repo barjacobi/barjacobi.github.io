@@ -1,0 +1,34 @@
+/* === RTL support for Hebrew === */
+html[lang="he"] body {
+  direction: rtl;
+  text-align: right;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+html[lang="he"] h1,
+html[lang="he"] h2,
+html[lang="he"] h3,
+html[lang="he"] h4,
+html[lang="he"] h5,
+html[lang="he"] h6,
+html[lang="he"] p,
+html[lang="he"] ul,
+html[lang="he"] ol,
+html[lang="he"] blockquote {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+}
+
+/* Optional: align list item bullets for Hebrew */
+html[lang="he"] ul, html[lang="he"] ol {
+  padding-right: 1.5em;
+  padding-left: 0;
+}
+
+/* Optional: align code blocks in Hebrew */
+html[lang="he"] pre,
+html[lang="he"] code {
+  direction: ltr;
+  text-align: left;
+}
