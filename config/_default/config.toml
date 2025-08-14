@@ -16,10 +16,10 @@ DefaultContentLanguage           = "en"
     [params.home]
         introHeight              = "medium"
         showIntro                = true
-        showLatest               = true 
-        showAllPosts             = false
-        allPostsArchiveFormat    = true
-        numberOfProjectsToShow   = 0
+        showLatest               = false 
+        showAllPosts             = true
+        allPostsArchiveFormat    = false
+        numberOfProjectsToShow   = 3
         localTime                = true
         timeZone                 = "Asia/Jerusalem"
         timeFormat               = "en-US"
@@ -31,16 +31,6 @@ DefaultContentLanguage           = "en"
         twitter                  = true
         facebook                 = true
         pinterest                = true
-
-    [params.giscus]
-        repo-id                  = "enter-repo-id"
-        category                 = "Comments"
-        category-id              = "enter-category-id"
-        mapping                  = "pathname"
-        reactions-enabled        = "1"
-        emit-metadata            = "0"
-        theme                    = "light"
-        lang                     = "en"
 
 # ========== ENGLISH ==========
 
@@ -60,7 +50,7 @@ DefaultContentLanguage           = "en"
 
         [[languages.en.params.blocks]]
             id = "about"
-            title = "About Me"
+            title = "About"
             content = """{{< readfile file="content/en/home/about.md" markdown="true" >}}"""
 
         [[languages.en.params.blocks]]
@@ -75,12 +65,11 @@ DefaultContentLanguage           = "en"
     languageCode     = "he"
     contentDir       = "content/he"
     weight           = 2
-    title            = "בר יעקובי"
+    title            = "בר יעקבי"
     customCSS = ["css/custom.css"]
 
     [languages.he.params]
         dateFormat   = "2 בינואר 2006"
-        description  = "חוקרת ביואינפורמטיקה עם עניין באבולוציה ויראלית ולמידת מכונה"
         customCSS    = ["css/custom.css"]
 
         [[languages.he.params.blocks]]
@@ -94,9 +83,10 @@ DefaultContentLanguage           = "en"
             content = """{{< readfile file="content/he/home/about.md" markdown="true" >}}"""
 
         [[languages.he.params.blocks]]
-            id = "contact"
-            title = "צור קשר"
-            content = """{{< readfile file="content/he/home/contact.md" markdown="true" >}}"""
+            id = "publications"
+            title = "פרסומים"
+            content = """{{< readfile file="content/en/home/publications.md" markdown="true" >}}"""
+      
 
 [taxonomies]
     tag = "tags"

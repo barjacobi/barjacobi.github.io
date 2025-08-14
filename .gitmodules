@@ -3,4 +3,4 @@
 	url = git@github.com:jpanther/congo.git
 [submodule "themes/introduction"]
 	path = themes/introduction
-	url = https://github.com/victoriadrake/hugo-theme-introduction.git
+	url = git@github.com:barjacobi/hugo-theme-introduction.git

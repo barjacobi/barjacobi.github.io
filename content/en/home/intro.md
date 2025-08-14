@@ -1,8 +1,9 @@
 ---
+weight: 1
 headless: true
 ---
 ### Hi, I'm Bar 👋🏻
 
-I'm a second year master's student at Tel Aviv University. 
+I'm a Master's student in Bioinformatics at Tel Aviv University, working with [Prof. Adi Stern](https://www.sternadi.com/).
 
-My work blends virology, bioinformatics, and machine learning.
+My research focuses on computational and machine learning approaches for studying viral evolution and related biological processes.
