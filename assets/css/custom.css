@@ -17,7 +17,6 @@ html[lang="he"] ol,
 html[lang="he"] blockquote {
   direction: rtl;
   unicode-bidi: embed;
-  text-align: right;
 }
 
 /* Optional: align list item bullets for Hebrew */
@@ -30,5 +29,4 @@ html[lang="he"] ul, html[lang="he"] ol {
 html[lang="he"] pre,
 html[lang="he"] code {
   direction: ltr;
-  text-align: left;
 }
