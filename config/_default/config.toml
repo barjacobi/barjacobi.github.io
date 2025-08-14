@@ -1,19 +1,110 @@
-# -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
-# https://jpanther.github.io/congo/docs/getting-started/
+baseURL                          = "http://barjacobi.com/"
+theme                            = "introduction"
+DefaultContentLanguage           = "en"
 
-# baseURL = "https://your_domain.com/"
-baseUrl = "https://barjacobi.com/"
-defaultContentLanguage = "en"
-paginate = 10
-theme = 'congo'
-enableRobotsTXT = true
-summaryLength = 0
-canonifyURLs = true
-relativeURLs = true
+[params]
+    themeStyle                   = "auto"
+    favicon                      = "/img/fav.ico"
+    showIntro                    = true
+    showMenu                     = true
+    showRSSButton                = false
+    fadeIn                       = true
+    fadeInIndex                  = false
+    dateFormat                   = "Jan 2, 2006"
+    email                        = "baraveh@gmail.com"
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+    [params.home]
+        introHeight              = "medium"
+        showIntro                = true
+        showLatest               = false 
+        showAllPosts             = true
+        allPostsArchiveFormat    = false
+        numberOfProjectsToShow   = 3
+        localTime                = true
+        timeZone                 = "Asia/Jerusalem"
+        timeFormat               = "en-US"
 
-[markup.goldmark.renderer]
-  unsafe = true
+    [params.projects]
+        useTwoColumns            = false
+
+    [params.share]
+        twitter                  = true
+        facebook                 = true
+        pinterest                = true
+
+# ========== ENGLISH ==========
+
+[languages.en]
+    languageName     = "English"
+    languageCode     = "en-us"
+    contentDir       = "content/en"
+    weight           = 0
+    title            = "Bar Jacobi"
+
+    [languages.en.params]
+
+        [[languages.en.params.blocks]]
+            id = "intro"
+            title = ""
+            content = """{{< readfile file="content/en/home/intro.md" markdown="true" >}}"""
+
+        [[languages.en.params.blocks]]
+            id = "about"
+            title = "About"
+            content = """{{< readfile file="content/en/home/about.md" markdown="true" >}}"""
+
+        [[languages.en.params.blocks]]
+            id = "publications"
+            title = "Publications"
+            content = """{{< readfile file="content/en/home/publications.md" markdown="true" >}}"""
+
+# ========== HEBREW ==========
+
+[languages.he]
+    languageName     = "עברית"
+    languageCode     = "he"
+    contentDir       = "content/he"
+    weight           = 2
+    title            = "בר יעקבי"
+    customCSS = ["css/custom.css"]
+
+    [languages.he.params]
+        dateFormat   = "2 בינואר 2006"
+        customCSS    = ["css/custom.css"]
+
+        [[languages.he.params.blocks]]
+            id = "intro"
+            title = ""
+            content = """{{< readfile file="content/he/home/intro.md" markdown="true" >}}"""
+
+        [[languages.he.params.blocks]]
+            id = "about"
+            title = "עליי"
+            content = """{{< readfile file="content/he/home/about.md" markdown="true" >}}"""
+
+        [[languages.he.params.blocks]]
+            id = "publications"
+            title = "פרסומים"
+            content = """{{< readfile file="content/en/home/publications.md" markdown="true" >}}"""
+      
+
+[taxonomies]
+    tag = "tags"
+    series = "series"
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+
+    [markup.goldmark]
+    [markup.goldmark.renderer]
+        unsafe = true
+
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        hl_Lines = ""
+        lineNoStart = 1
+        lineNos = false
+        lineNumbersInTable = true
+        style = "solarized-dark"
+        tabWidth = 4
