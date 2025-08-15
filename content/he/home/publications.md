@@ -1,6 +1,6 @@
 ---
 title: "פרסומים"
-weight: 20
+weight: 3
 ---
 
 <div dir="ltr" style="text-align: left;">

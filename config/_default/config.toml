@@ -9,9 +9,8 @@ DefaultContentLanguage           = "en"
     showMenu                     = true
     showRSSButton                = false
     fadeIn                       = true
-    fadeInIndex                  = false
+    fadeInIndex                  = true
     dateFormat                   = "Jan 2, 2006"
-    email                        = "baraveh@gmail.com"
 
     [params.home]
         introHeight              = "medium"
@@ -20,7 +19,7 @@ DefaultContentLanguage           = "en"
         showAllPosts             = true
         allPostsArchiveFormat    = false
         numberOfProjectsToShow   = 3
-        localTime                = true
+        localTime                = false
         timeZone                 = "Asia/Jerusalem"
         timeFormat               = "en-US"
 
