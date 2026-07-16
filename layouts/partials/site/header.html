@@ -5,13 +5,21 @@
       <a class="site-name" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
       <p>{{ if eq .Site.Language.Lang "he" }}חוקרת, מהנדסת ודוקטורנטית לעתיד{{ else }}Researcher, engineer &amp; incoming PhD student{{ end }}</p>
     </div>
-    <nav class="masthead-nav" aria-label="{{ if eq .Site.Language.Lang "he" }}ניווט ראשי{{ else }}Main navigation{{ end }}">
-      <a{{ if .IsHome }} aria-current="page"{{ end }} href="{{ .Site.Home.RelPermalink }}">{{ if eq .Site.Language.Lang "he" }}ראשי{{ else }}Home{{ end }}</a>
-      <a href="{{ "publications/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}פרסומים{{ else }}Publications{{ end }}</a>
-      <a href="{{ "blog/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}פוסטים{{ else }}Posts{{ end }}</a>
-      <a href="{{ "files/bar-jacobi-cv.pdf" | relURL }}">CV</a>
-      <a href="{{ "contact/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}יצירת קשר{{ else }}Contact{{ end }}</a>
-      {{ range .Site.Home.AllTranslations.ByWeight }}{{ if ne .Language.Lang $.Site.Language.Lang }}<a class="language-link" href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>{{ end }}{{ end }}
-    </nav>
+    <div class="masthead-actions">
+      <nav class="masthead-nav" aria-label="{{ if eq .Site.Language.Lang "he" }}ניווט ראשי{{ else }}Main navigation{{ end }}">
+        <a{{ if .IsHome }} aria-current="page"{{ end }} href="{{ .Site.Home.RelPermalink }}">{{ if eq .Site.Language.Lang "he" }}ראשי{{ else }}Home{{ end }}</a>
+        <a href="{{ "publications/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}פרסומים{{ else }}Publications{{ end }}</a>
+        <a href="{{ "blog/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}פוסטים{{ else }}Posts{{ end }}</a>
+        <a href="{{ "files/bar-jacobi-cv.pdf" | relURL }}">CV</a>
+        <a href="{{ "contact/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}יצירת קשר{{ else }}Contact{{ end }}</a>
+        {{ range .Site.Home.AllTranslations.ByWeight }}{{ if ne .Language.Lang $.Site.Language.Lang }}<a class="language-link" href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>{{ end }}{{ end }}
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle
+        data-dark-label="{{ if eq .Site.Language.Lang "he" }}מעבר למצב כהה{{ else }}Switch to dark mode{{ end }}"
+        data-light-label="{{ if eq .Site.Language.Lang "he" }}מעבר למצב בהיר{{ else }}Switch to light mode{{ end }}">
+        <span class="theme-toggle-dark" aria-hidden="true">☾</span>
+        <span class="theme-toggle-light" aria-hidden="true">☀</span>
+      </button>
+    </div>
   </div>
 </header>

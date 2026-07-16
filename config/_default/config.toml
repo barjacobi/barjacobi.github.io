@@ -9,6 +9,7 @@ DefaultContentLanguage           = "en"
 [params]
     themeStyle                   = "auto"
     customCSS                   = ["css/custom.css"]
+    customJS                    = ["js/theme.js"]
     favicon                      = "/img/fav.ico"
     showIntro                    = true
     showMenu                     = true
@@ -82,6 +83,7 @@ DefaultContentLanguage           = "en"
         description = "בר יעקבי היא חוקרת בביולוגיה חישובית וסטודנטית נכנסת לדוקטורט במדעי המחשב באוניברסיטת וושינגטון, העוסקת בלמידת מכונה לרצפים ומבנים ביולוגיים."
         dateFormat   = "2 בינואר 2006"
         customCSS    = ["css/custom.css"]
+        customJS     = ["js/theme.js"]
 
         [[languages.he.params.blocks]]
             id = "intro"
