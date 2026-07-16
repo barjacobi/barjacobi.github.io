@@ -1,0 +1,36 @@
+{{ define "title" }}
+{{ with .Site.GetPage "/blog" }}
+<h1 class="bold-title is-1">{{ .Title | markdownify }}</h1>
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container post-heading">
+  <h2 class="title is-1 top-pad strong-post-title">
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </h2>
+  {{ with .Params.author }}
+  <h4 class="title is-4">By&nbsp;{{ delimit . ", " }}</h4>
+  {{ end }}
+  <div class="post-data">
+    {{ if .Params.date }}{{ .Date.Format (.Site.Params.dateFormat | default ":date_medium") }}{{ end }}
+    {{ if .Site.Params.showReadingTime | default true }}
+      {{ if .Params.date }} | {{ end }}{{ i18n "blog_readingTime" .ReadingTime }}
+    {{ end }}
+  </div>
+</div>
+
+<div class="post-layout">
+  <aside class="post-toc" aria-label="{{ if eq .Site.Language.Lang "he" }}תוכן עניינים{{ else }}Table of contents{{ end }}">
+    <details open>
+      <summary>{{ if eq .Site.Language.Lang "he" }}בעמוד הזה{{ else }}On this page{{ end }}</summary>
+      {{ .TableOfContents }}
+    </details>
+  </aside>
+  <article class="post-content markdown top-pad">
+    {{ .Content }}
+  </article>
+</div>
+
+{{ partial "comments.html" . }}
+{{ end }}
