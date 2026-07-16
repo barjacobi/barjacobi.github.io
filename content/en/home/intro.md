@@ -2,8 +2,8 @@
 weight: 1
 headless: true
 ---
-### Hi, I'm Bar 👋🏻
+I am an incoming PhD student in Computer Science at the University of Washington, where I will work on computational approaches for modeling biological systems, including virtual-cell models.
 
-I'm a Master's student in Bioinformatics at Tel Aviv University, working with [Prof. Adi Stern](https://www.sternadi.com/).
+I am completing an M.Sc. in Bioinformatics at Tel Aviv University in [Prof. Adi Stern’s lab](https://sternadi.sites.tau.ac.il/). My research develops methods for annotating viral proteins using sequence, predicted structure, evolutionary information, and protein language models.
 
-My research focuses on computational and machine learning approaches for studying viral evolution and related biological processes.
+Before pursuing research in computational biology, I earned a B.Sc. in Computer Science at the Technion and later worked as a Production Engineer at Meta.

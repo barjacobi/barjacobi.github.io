@@ -1,6 +1,7 @@
 ---
 title: "My Dual-Boot Linux Media Server Setup"
 date: 2025-05-08T14:40:43+03:00
+tags: ["Systems"]
 summary: "Resurrecting my gaming rig: How I turned it into a dual-boot Linux multimedia server"
 description: "Resurrecting my gaming rig: How I turned it into a dual-boot Linux multimedia server"
 ---
@@ -170,4 +171,3 @@ What started as a powerful gaming PC is now my private, secure multimedia server
 * [PhotoPrism Setup Guide](https://docs.photoprism.app/getting-started/)
 * [Jellyfin Docker Guide](https://jellyfin.org/docs/general/administration/docker/)
 * [NoMachine](https://www.nomachine.com/)
-

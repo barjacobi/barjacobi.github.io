@@ -1,9 +1,14 @@
-baseURL                          = "http://barjacobi.com/"
+baseURL                          = "https://barjacobi.com/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"
 
+[services]
+    [services.googleAnalytics]
+        ID = "G-X08FX5B5K1"
+
 [params]
     themeStyle                   = "auto"
+    customCSS                   = ["css/custom.css"]
     favicon                      = "/img/fav.ico"
     showIntro                    = true
     showMenu                     = true
@@ -11,6 +16,11 @@ DefaultContentLanguage           = "en"
     fadeIn                       = true
     fadeInIndex                  = true
     dateFormat                   = "Jan 2, 2006"
+    email                        = "baraveh@gmail.com"
+    github                       = "https://github.com/barjacobi"
+    linkedin                     = "https://www.linkedin.com/in/bar-jacobi/"
+    scholar                      = "https://scholar.google.com/citations?user=Pjly-lwAAAAJ"
+    orcid                        = "https://orcid.org/0009-0002-0638-399X"
 
     [params.home]
         introHeight              = "medium"
@@ -27,9 +37,9 @@ DefaultContentLanguage           = "en"
         useTwoColumns            = false
 
     [params.share]
-        twitter                  = true
-        facebook                 = true
-        pinterest                = true
+        twitter                  = false
+        facebook                 = false
+        pinterest                = false
 
 # ========== ENGLISH ==========
 
@@ -41,6 +51,7 @@ DefaultContentLanguage           = "en"
     title            = "Bar Jacobi"
 
     [languages.en.params]
+        description = "Bar Jacobi is a computational biology researcher and incoming Computer Science PhD student at the University of Washington, working on machine learning for biological sequence and structure."
 
         [[languages.en.params.blocks]]
             id = "intro"
@@ -68,6 +79,7 @@ DefaultContentLanguage           = "en"
     customCSS = ["css/custom.css"]
 
     [languages.he.params]
+        description = "בר יעקבי היא חוקרת בביולוגיה חישובית וסטודנטית נכנסת לדוקטורט במדעי המחשב באוניברסיטת וושינגטון, העוסקת בלמידת מכונה לרצפים ומבנים ביולוגיים."
         dateFormat   = "2 בינואר 2006"
         customCSS    = ["css/custom.css"]
 

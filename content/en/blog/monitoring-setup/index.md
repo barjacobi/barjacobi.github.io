@@ -1,6 +1,7 @@
 ---
 title: "Quick and Dirty Monitoring Stack"
 date: 2025-02-22T12:19:00+03:00
+tags: ["Systems"]
 summary: "Setting up a monitoring stack with Prometheus and Grafana - without sudo."
 description: "Setting up a monitoring stack with Prometheus and Grafana - without sudo."
 ---

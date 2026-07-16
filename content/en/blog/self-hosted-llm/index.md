@@ -1,6 +1,7 @@
 ---
 title: "Self-hosting your own LLM with Ollama"
 date: 2025-08-15T17:00:00+03:00
+tags: ["AI"]
 summary: "I hated GPT-5 so much I decided to host my own LLM."
 ---
 

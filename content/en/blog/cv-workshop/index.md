@@ -1,6 +1,7 @@
 ---
 title: "Workshop - My First Resume"
 date: 2025-01-22T12:00:40+03:00
+tags: ["Career"]
 summary: "How to write a resume as a student with no experience"
 description: "How to write a resume as a student with no experience"
 ---

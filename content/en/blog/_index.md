@@ -1,5 +1,5 @@
 ---
-title: Blog
-subtitle: I occasionally do something that’s interesting enough to write about.
+title: Posts
+subtitle: Notes on computing, research, and the occasional side project.
 weight: 4
 ---
