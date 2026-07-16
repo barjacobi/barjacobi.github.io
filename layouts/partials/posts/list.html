@@ -1,5 +1,5 @@
 <div class="posts-list">
-  {{ range .ByPublishDate.Reverse }}
+  {{ range .ByDate.Reverse }}
   <article class="post-preview">
     <h2><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
     {{ with .GetTerms "tags" }}
@@ -8,7 +8,7 @@
     </div>
     {{ end }}
     <p>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Plain | truncate 180 }}{{ end }}</p>
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (.Site.Params.dateFormat | default ":date_medium") }}</time>
+    {{ if .Params.date }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (.Site.Params.dateFormat | default ":date_medium") }}</time>{{ end }}
   </article>
   {{ end }}
 </div>
