@@ -1,4 +1,41 @@
-public/
+# Hugo-generated output and caches
+/public/
 **/_gen/
-.hugo_build.lock
+/.hugo_build.lock
+/hugo_stats.json
+
+# Local dependency installs and tool logs
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment files (keep examples trackable)
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system metadata
 .DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# LaTeX build artifacts; source .tex and final PDFs remain trackable
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Saved webpages used only as local visual references
+/Megan Le.html
+/Megan Le_files/
+/Posts – Megan Le.html
+/Posts – Megan Le_files/
