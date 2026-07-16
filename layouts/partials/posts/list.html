@@ -1,0 +1,14 @@
+<div class="posts-list">
+  {{ range .ByPublishDate.Reverse }}
+  <article class="post-preview">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
+    {{ with .GetTerms "tags" }}
+    <div class="post-subjects" aria-label="{{ if eq site.Language.Lang "he" }}נושאים{{ else }}Subjects{{ end }}">
+      {{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+    </div>
+    {{ end }}
+    <p>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Plain | truncate 180 }}{{ end }}</p>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (.Site.Params.dateFormat | default ":date_medium") }}</time>
+  </article>
+  {{ end }}
+</div>

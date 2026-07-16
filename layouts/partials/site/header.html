@@ -1,0 +1,17 @@
+<a class="skip-link" href="#main-content">{{ if eq .Site.Language.Lang "he" }}דילוג לתוכן{{ else }}Skip to content{{ end }}</a>
+<header class="site-masthead">
+  <div class="site-shell masthead-inner">
+    <div class="site-identity">
+      <a class="site-name" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+      <p>{{ if eq .Site.Language.Lang "he" }}ביולוגיה חישובית ומדעי המחשב{{ else }}Computational Biology &amp; Computer Science{{ end }}</p>
+    </div>
+    <nav class="masthead-nav" aria-label="{{ if eq .Site.Language.Lang "he" }}ניווט ראשי{{ else }}Main navigation{{ end }}">
+      <a{{ if .IsHome }} aria-current="page"{{ end }} href="{{ .Site.Home.RelPermalink }}">{{ if eq .Site.Language.Lang "he" }}ראשי{{ else }}Home{{ end }}</a>
+      <a href="{{ "publications/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}פרסומים{{ else }}Publications{{ end }}</a>
+      <a href="{{ "blog/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}פוסטים{{ else }}Posts{{ end }}</a>
+      <a href="{{ "files/bar-jacobi-cv.pdf" | relURL }}">CV</a>
+      <a href="{{ "contact/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}יצירת קשר{{ else }}Contact{{ end }}</a>
+      {{ range .Site.Home.AllTranslations.ByWeight }}{{ if ne .Language.Lang $.Site.Language.Lang }}<a class="language-link" href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>{{ end }}{{ end }}
+    </nav>
+  </div>
+</header>

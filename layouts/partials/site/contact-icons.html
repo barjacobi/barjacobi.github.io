@@ -1,0 +1,27 @@
+<nav class="contact-icons" aria-label="{{ if eq .Site.Language.Lang "he" }}פרטי קשר וקישורים מקצועיים{{ else }}Contact and professional profiles{{ end }}">
+  {{ with .Site.Params.email }}
+  <a href="mailto:{{ . }}" aria-label="Email Bar Jacobi" title="Email">
+    <i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span>
+  </a>
+  {{ end }}
+  {{ with .Site.Params.github }}
+  <a href="{{ . }}" aria-label="Bar Jacobi on GitHub" title="GitHub">
+    <i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span>
+  </a>
+  {{ end }}
+  {{ with .Site.Params.scholar }}
+  <a href="{{ . }}" aria-label="Bar Jacobi on Google Scholar" title="Google Scholar">
+    <i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span>
+  </a>
+  {{ end }}
+  {{ with .Site.Params.linkedin }}
+  <a href="{{ . }}" aria-label="Bar Jacobi on LinkedIn" title="LinkedIn">
+    <i class="fab fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span>
+  </a>
+  {{ end }}
+  {{ with .Site.Params.orcid }}
+  <a href="{{ . }}" aria-label="Bar Jacobi on ORCID" title="ORCID">
+    <i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span>
+  </a>
+  {{ end }}
+</nav>

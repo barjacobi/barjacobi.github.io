@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="markdown">{{ .Content }}</div>
+  {{ with .Pages }}
+  <ul class="section-page-list">
+    {{ range .ByPublishDate.Reverse }}
+    <li>
+      {{ with .Date }}<time datetime="{{ .Format "2006-01-02" }}">{{ .Format ($.Site.Params.dateFormat | default ":date_medium") }}</time>{{ end }}
+      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+{{ end }}

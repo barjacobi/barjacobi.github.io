@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.LanguageCode }}"{{ if eq .Site.Language.Lang "he" }} dir="rtl"{{ end }}>
+    <head>
+        {{ partial "head/metadata.html" . }}
+        {{ partial "head/openGraph.html" . }}
+        {{ partial "head/favicons.html" . }}
+        {{ partial "head/css.html" . }}
+        <link rel="canonical" href="{{ .Permalink }}">
+    </head>
+    <body class="academic-home">
+        {{ $home := .Site.GetPage "/home" }}
+        {{ $about := $home.Resources.GetMatch "about.md" }}
+        {{ $publications := $home.Resources.GetMatch "publications.md" }}
+
+        {{ partial "site/header.html" . }}
+
+        <main id="main-content" class="site-shell home-content">
+            <section class="profile" aria-label="{{ if eq .Site.Language.Lang "he" }}היכרות{{ else }}Introduction{{ end }}">
+                <img class="profile-photo" src="{{ "img/portrait.jpg" | relURL }}?v=20260716-3" alt="{{ .Site.Title }}">
+                <div class="profile-copy">
+                    <h1 class="sr-only">{{ .Site.Title }}</h1>
+                    {{ with $home.Resources.GetMatch "intro.md" }}
+                        <div class="intro-copy markdown">{{ .Content }}</div>
+                    {{ end }}
+                </div>
+            </section>
+
+            {{ partial "site/contact-icons.html" . }}
+
+            <section id="publications" class="home-section home-publications">
+                {{ partial "publications/list.html" . }}
+            </section>
+
+        </main>
+
+        {{ partial "site/footer.html" . }}
+
+        {{ partial "footer/scripts.html" . }}
+    </body>
+</html>

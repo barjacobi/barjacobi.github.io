@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.LanguageCode }}"{{ if eq .Site.Language.Lang "he" }} dir="rtl"{{ end }}>
+  <head>
+    {{ block "head" . }}
+      {{ partial "head/metadata.html" . }}
+      {{ if .Site.Params.plausible }}{{ partial "head/plausible.html" . }}{{ end }}
+      {{ partial "head/openGraph.html" . }}
+      {{ partial "head/favicons.html" . }}
+      {{ partial "head/css.html" . }}
+      <link rel="canonical" href="{{ .Permalink }}">
+    {{ end }}
+    {{ block "customCSS" . }}{{ end }}
+  </head>
+  <body>
+    {{ partial "site/header.html" . }}
+    <main id="main-content" class="site-main site-shell">
+      <header class="page-header">
+        {{ block "title" . }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
+      </header>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+    {{ block "js-include" . }}{{ partial "footer/scripts.html" . }}{{ end }}
+    {{ block "customScripts" . }}{{ end }}
+  </body>
+</html>

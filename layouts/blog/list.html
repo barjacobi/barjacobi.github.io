@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ with .Params.subtitle }}<p class="posts-intro">{{ . }}</p>{{ end }}
+  {{ with .Site.Taxonomies.tags }}
+  <nav class="subject-filter" aria-label="{{ if eq $.Site.Language.Lang "he" }}סינון לפי נושא{{ else }}Filter posts by subject{{ end }}">
+    <span>{{ if eq $.Site.Language.Lang "he" }}סינון לפי נושא:{{ else }}Filter by subject:{{ end }}</span>
+    {{ range .Alphabetical }}<a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }} <small>({{ .Count }})</small></a>{{ end }}
+  </nav>
+  {{ end }}
+  {{ partial "posts/list.html" .Pages }}
+{{ end }}

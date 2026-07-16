@@ -1,0 +1,28 @@
+{{ $groups := slice "Publications" "Preprints" "Theses or selected manuscripts" }}
+{{ range $group := $groups }}
+  {{ $entries := where site.Data.publications "group" $group }}
+  {{ with $entries }}
+  <section class="publication-group">
+    <h2>{{ $group }}</h2>
+    <ol class="publication-list">
+      {{ range . }}
+      <li class="publication-entry">
+        <h3>{{ with .doi }}<a href="{{ . }}">{{ end }}{{ .title }}{{ if .doi }}</a>{{ end }}</h3>
+        <p class="publication-authors">{{ .authors | markdownify }}</p>
+        <p class="publication-meta"><cite>{{ .venue }}</cite>{{ with .year }}, {{ . }}{{ end }}</p>
+        {{ if eq site.Language.Lang "he" }}
+          {{ with .description_he }}<p>{{ . }}</p>{{ end }}
+        {{ else }}
+          {{ with .description_en }}<p>{{ . }}</p>{{ end }}
+        {{ end }}
+        <p class="publication-links">
+          {{ with .doi }}<a href="{{ . }}">DOI</a>{{ end }}
+          {{ with .pdf }}<a href="{{ . | relURL }}">PDF</a>{{ end }}
+          {{ with .code }}<a href="{{ . }}">Code</a>{{ end }}
+        </p>
+      </li>
+      {{ end }}
+    </ol>
+  </section>
+  {{ end }}
+{{ end }}
