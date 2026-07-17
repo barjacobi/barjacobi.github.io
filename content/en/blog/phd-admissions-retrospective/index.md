@@ -121,7 +121,7 @@ For a research-focused PhD, the ideal arrangement is often three letters from pr
 
 A detailed letter from someone who directly supervised your research is usually much stronger than a generic letter from a famous professor. The value is in what the writer can actually say about you, not in the prestige of the name at the bottom.
 
-Despite having extensive industry experience, I did not use a letter from a manager. I wanted all three letters to address my research potential, and academic PIs regularly write this particular kind of letter. Industry letters can work well, especially when the work involved substantial research or the writer understands academic admissions. The right choice is the person who can write the most informative and relevant letter, not the person with the most impressive title.
+Despite having industry experience, I did not use a letter from a manager. I wanted all three letters to address my research potential, and academic PIs regularly write this particular kind of letter. Industry letters can work well, especially when the work involved substantial research or the writer understands academic admissions. The right choice is the person who can write the most informative and relevant letter, not the person with the most impressive title.
 
 Do not be ashamed to ask. Professors are used to recommendation requests, and a clear refusal is better than a vague letter from someone who does not know you well enough to advocate for you. Ask people who genuinely know your work, give them enough time, and provide your CV, statement draft, program list, deadlines, and a reminder of the projects you completed together.
 
