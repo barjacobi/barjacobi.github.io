@@ -259,6 +259,44 @@ html[data-theme="dark"] .theme-toggle-light { display: inline; }
 .post-subjects { display: flex; flex-wrap: wrap; gap: 8px; }
 .filter-back { margin: 0 0 22px; }
 
+.application-timeline {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  list-style: none;
+  margin: 28px 0 34px;
+  padding: 0 !important;
+  position: relative;
+}
+.application-timeline::before {
+  background: var(--line);
+  content: "";
+  height: 1px;
+  inset-inline: 7%;
+  position: absolute;
+  top: 8px;
+}
+.application-timeline li {
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 24px 8px 0;
+  position: relative;
+  text-align: center;
+}
+.application-timeline li::before {
+  background: var(--page-bg);
+  border: 2px solid var(--link);
+  border-radius: 50%;
+  content: "";
+  height: 12px;
+  left: calc(50% - 6px);
+  position: absolute;
+  top: 1px;
+  width: 12px;
+}
+.application-timeline strong { color: var(--text); display: block; margin-bottom: 5px; }
+.application-timeline span { color: var(--muted); display: block; }
+
 .post-heading { margin-bottom: 24px; }
 .post-layout {
   align-items: start;
@@ -330,6 +368,10 @@ html[lang="he"] ul, html[lang="he"] ol { padding-right: 1.5em; padding-left: 0; 
   .contact-icons a { min-height: 44px; }
   .post-list article { display: block; }
   .post-list time { display: block; margin-bottom: 3px; }
+  .application-timeline { display: block; margin-inline-start: 7px; }
+  .application-timeline::before { bottom: 10px; height: auto; inset-inline-start: 0; inset-inline-end: auto; top: 8px; width: 1px; }
+  .application-timeline li { padding: 0 0 22px 24px; text-align: start; }
+  .application-timeline li::before { left: -7px; top: 3px; }
 }
 
 @media (max-width: 900px) {
