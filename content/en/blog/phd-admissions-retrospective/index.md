@@ -1,19 +1,17 @@
 ---
-title: "PhD Admissions Retrospective"
+title: "Applying to US PhD Programs from Israel"
 translationKey: "phd-admissions-retrospective"
 date: 2026-07-16T12:00:00+03:00
 tags: ["Career"]
-summary: "What surprised me while applying to US PhD programs from Israel, and what I would do differently."
-description: "A practical retrospective on applying to computer science and bioinformatics PhD programs from Israel."
+summary: "My experience applying to US PhD programs from Israel: what surprised me, what helped, and what I would do differently."
+description: "A personal and practical retrospective on applying to computer science and bioinformatics PhD programs from Israel."
 ---
 
-This fall, I will join the Computer Science PhD program at the University of Washington. Getting there took more than a year of researching programs, writing essays, interviewing, waiting, and eventually choosing between several options I was genuinely excited about.
+This fall, I will join the Computer Science PhD program at the University of Washington. Getting there took more than a year of researching programs, writing essays, interviewing, waiting, and eventually choosing between several options I was genuinely excited about. I applied to programs in computer science, bioinformatics, and related interdisciplinary areas, and because my interests span computational biology, machine learning, and biological modeling, even deciding which departments to apply to became part of the process.
 
-I applied to programs in computer science, bioinformatics, and related interdisciplinary areas. My interests sit somewhere between computational biology, machine learning, and biological modeling, so even deciding which departments to apply to was part of the process.
+This post is about what that year looked like for me as an applicant from Israel: what surprised me, what I found difficult, what helped, and what I would do differently. Even people in Israeli academia often know little about how US PhD admissions work, so I have included the practical details that I would have wanted at the beginning. This is not a comprehensive guide or a formula for admission, only one applicant's experience.
 
-When I started, I looked for advice from people who had recently gone through US admissions. Formal guides helped, but personal accounts were even more useful: they explained what had surprised people, which mistakes they made, and what they would do differently. I was also fortunate to receive generous advice from my advisor and collaborators, current PhD students, professors, and friends. They explained unfamiliar parts of the system, read drafts, and prepared me for interviews. I could not have navigated the process without them.
-
-This post is my attempt to pass that help along, especially to applicants coming from outside the US system. These are observations from one application cycle, not a formula for admission. If you are still several years away, the most useful advice is much simpler: get involved in research, learn whether you actually enjoy it, and build relationships with people who can help you grow.
+I did not navigate it alone. Formal guides were helpful, but I learned even more from current PhD students, professors, friends, and others who had recently gone through the process. They explained unfamiliar parts of the system, read drafts, prepared me for interviews, and helped me make difficult decisions. I could not have done it without them.
 
 ---
 
@@ -22,41 +20,51 @@ This post is my attempt to pass that help along, especially to applicants coming
 The formal application season mostly took place in the fall, but the preparation began much earlier. Mine looked roughly like this:
 
 <ol class="application-timeline">
-  <li><strong>Spring</strong><span>Built a list of research areas, professors, and programs.</span></li>
-  <li><strong>Summer</strong><span>Asked for advice, narrowed the list, and began shaping my research story.</span></li>
+  <li><strong>Spring</strong><span>Built a program list and audited international-applicant requirements.</span></li>
+  <li><strong>Summer</strong><span>Asked for advice, narrowed the list.</span></li>
   <li><strong>Early fall</strong><span>Drafted my statement, updated my CV, and contacted recommenders.</span></li>
   <li><strong>Late fall</strong><span>Tailored materials, navigated application portals, and submitted.</span></li>
   <li><strong>Winter</strong><span>Interviews, rejections, silence, and far too much email refreshing.</span></li>
   <li><strong>Spring</strong><span>Offers, visit days, more conversations, and the final decision.</span></li>
 </ol>
 
-One of the most useful things I did was create a spreadsheet early. It became the external memory for the process: deadlines, requirements, professors of interest, whether they expected to take students, recommendation letters, fees, and program-specific essays. Each detail is small, but together they are far too much to keep reliably in your head.
+I created a spreadsheet early to track deadlines, requirements, professors of interest, recommendation letters, fees, and program-specific essays. Because most of my deadlines were around late November or December, beginning in spring or early summer gave me roughly six months to identify testing and transcript requirements and deal with surprises before the essays took over my life. The deeper preparation, including my research experience and relationships with recommenders, had taken years rather than months.
 
 ---
 
-## First, understanding the US system from Israel
+## What surprised me about the US system
 
-I approached the process from the Israeli academic system, which works quite differently from the US system. Many conventions that seemed obvious to applicants already studying in the US were completely new to me.
-
-The first surprise was how many programs I needed to apply to. Admission rates at the US programs I was considering were low enough that applying to only one or two places, even with an excellent fit, would have been a significant gamble. I therefore built a much broader list than many Israelis expected. 
+I approached the process from the Israeli academic system, where many conventions work quite differently. The first surprise was the scale: admission rates at the US programs I was considering were low enough that applying to only one or two places, even with excellent research fit, would have been a significant gamble. I therefore built a much broader list than many Israelis expected.
 
 This difference is not because PhD programs in Israel are worse or less selective. Israeli admissions are often more personal and PI-driven. In many fields, a prospective student can identify a lab, speak directly with the PI, and develop a mutual understanding before the formal university process. If the PI wants to supervise the student and the practical details work out, admission can feel relatively direct.
 
-In the US, I encountered two broad models. Some programs admit students centrally through a department committee; students choose or confirm an advisor later. Others admit directly into a particular lab, closer to the Israeli model. In committee-based programs, a strong connection with one PI did not determine the outcome when limited class sizes, funding, and professor availability also mattered. Applying broadly was not uncertainty about what I wanted. It was a practical response to a system in which research fit helps but does not guarantee admission. By research fit, I mean the overlap between the questions I wanted to study, the advisors available to supervise that work, and the way the program was structured.
+In the US, I encountered two broad models. Some programs admit students through a departmental committee, with students choosing or confirming an advisor later. Others admit directly into a particular lab, closer to the Israeli model. In committee-based programs, a connection with one professor did not determine the outcome because class size, funding, and advisor availability also mattered. Applying broadly was a practical response to a system in which research fit helps but does not guarantee admission. By research fit, I mean the overlap between the questions I wanted to study, the available advisors, and the structure of the program.
 
-One thing I did not understand before applying was that funding was not an afterthought; it was part of the offer itself. The programs I considered generally waived tuition and paid a living stipend through the department, an advisor's grant, teaching, a fellowship, or some combination. I learned to ask how many years were guaranteed, whether summers and health insurance were covered, and, most importantly, what that stipend could actually buy in the city where I would live.
+The degree structure was another source of confusion. In Israel, it is common to complete a research master's with a thesis and then begin a PhD with a specific advisor. In the US, many students enter a longer PhD directly after their bachelor's degree, with coursework, rotations, qualifying requirements, and sometimes a master's built into the program. My master's gave me valuable research experience, but it was not a universal prerequisite or a shortcut through the US degree.
+
+Whenever I told people in Israel that I was applying to graduate programs abroad, they often imagined something closer to an MBA or another professional degree: a period of study for which I would pay tuition, followed by a return to the workforce. A research PhD is much closer to a job. You join a lab or department for five or six years, spend most of that time doing research and often teaching, and receive funding in return. The exact legal status of PhD students varies between universities, but in practical terms I was applying for a long-term, paid research position rather than purchasing another degree.
+
+That distinction made funding part of the offer, not an afterthought. The programs I considered generally waived tuition and paid a stipend through the department, an advisor's grant, teaching, a fellowship, or some combination. I learned to ask how many years were guaranteed, whether summers and health insurance were covered, and what the stipend could actually buy in that city. Thinking of the PhD as both training and a workplace also clarified why advisor fit, lab culture, and location mattered so much.
+
+### The extra administrative layer of applying from abroad
+
+Alongside the research application, I had to track requirements that varied between universities. I was not sure whether I would need TOEFL, so I took it early rather than risk discovering too late that a score was required. Some programs asked for it, while others waived it under specific conditions based on previous education. The GRE, by contrast, was not required by any program on my list. It was worth checking each department's actual requirements rather than relying on general advice about US applications.
+
+Transcripts raised another set of questions: whether a program accepted an unofficial upload, required an English version, wanted an explanation of the Israeli grading scale, or asked for a credential evaluation. My rule was not to convert my average to a US GPA or reinterpret anything unless explicitly requested.
+
+Application fees, fee-waiver rules, separate recommendation portals, and deadlines in US time zones also accumulated quickly. None was difficult on its own, but together they justified the early start.
+
+Immigration logistics were less relevant in my own case because I had recently received a green card. I learned that this may help in ways that go beyond avoiding the student-visa process: some programs face funding constraints or limits on how many international students they can admit. Admissions decisions are opaque, so I cannot know how much permanent residency mattered in my results, but it removed one source of uncertainty that many international applicants still have to navigate.
 
 ---
 
 ## Choosing an academic home
 
-Although the problems I care about are biological, I eventually realized that my heart is in computer science. Reaching that conclusion took longer than I expected.
+Although the problems I care about are biological, I eventually realized that my heart is in computer science. Reaching that conclusion took longer than I expected because my background left me somewhere between computer science and computational biology: a computer science degree, industry work as a Production Engineer at Meta, and then a master's in bioinformatics. I applied to computer science, bioinformatics, and several interdisciplinary programs without knowing which academic home would fit best.
 
-My background left me somewhere between computer science and computational biology: a computer science degree, industry work as a Production Engineer at Meta, and then a master's in bioinformatics. I applied to computer science, bioinformatics, and several interdisciplinary programs without knowing which academic home would fit best.
+The same advisor may supervise students from several departments, and the daily research can be nearly identical. The differences often lie in coursework, culture, funding, and community, so I asked about rotations, cross-department advising, funding, and where students with similar interests actually spent their time.
 
-There is no universally correct choice. The same advisor may supervise students from several departments, and the daily research can be nearly identical. The differences often lie in coursework, culture, funding, and community. I asked whether programs used rotations or direct admission, how easy it was to work across departments, who funded students, and where people with similar interests actually spent their time.
-
-The answer became clearer as I revised my statement and narrowed my lab preferences. I wanted to develop computational ideas and methods for understanding biology, which made computer science feel like the right academic home.
+The answer became clearer as I revised my statement and narrowed my lab preferences. That process forced me to articulate not only which biological questions interested me, but also how I wanted to approach them. I wanted to develop computational ideas and methods for understanding biology, which made computer science feel like the right academic home.
 
 ---
 
@@ -78,17 +86,17 @@ I also tried to apply only to places I could honestly imagine attending. Adding 
 
 ---
 
-## Contacting professors before applying
+## My experience contacting professors
 
-Applicants often vastly overestimate the importance of cold emails. Some people say that you should email every professor you might want to work with, while others say that this is unnecessary or even discouraged. In practice, the admissions structure matters more than any universal rule. Most of my cold emails went unanswered, but in committee-based programs this did not seem to affect the process. Professors receive many such messages, so I would not treat silence as a judgment on the application or spend much time interpreting it.
+I went into the process thinking that cold emails might matter much more than they ultimately did. Some advice said to email every professor I might want to work with; other advice said it was unnecessary or even discouraged. In my experience, the admissions model explained much of that disagreement. Most of my emails went unanswered. Some professors told me that they were not taking students, which was genuinely useful because it helped me filter my program list. Others essentially replied, "Go ahead and apply, and we will see what happens." In committee-based programs, none of these responses seemed to determine the outcome, and I eventually stopped treating silence as a judgment on my application.
 
-For direct-admit programs, however, contacting the PI can be crucial because that person may need to support the application and have funding available. Rather than sending a generic message, mention a talk you attended, a paper you read as part of your work, or another concrete reason their research relates to yours. The goal is to show why you are writing to that particular person, not simply to ask whether there is an opening.
+The notable exceptions were professors whom either my current advisor or I knew personally. Those existing connections led to much more substantive conversations, and they mattered especially for direct-admission paths, where a particular professor may need to support the application and have funding available. When I did contact someone without a personal connection, I tried to avoid a generic message and instead mentioned a talk I had attended, a paper I had read as part of my work, or another concrete reason their research related to mine. The useful question was not simply whether the lab had an opening, but why I was writing to that particular person.
 
 ---
 
 ## Preparing the applications
 
-Once the list was settled, the less glamorous part began: the applications themselves. Most programs asked for the same core materials, including transcripts and a GPA, three recommendation letters, a statement of purpose, and a CV. Some also required a separate personal essay about background, challenges, or community contributions. The categories repeated, but the word limits, prompts, transcript rules, and short-answer questions did not. I learned to read every program's instructions rather than assume that the next portal would resemble the previous one.
+Once the list was settled, the less glamorous part began. Most programs asked for transcripts, three recommendation letters, a statement of purpose, and a CV; some added a personal essay. The materials looked similar from a distance, but the prompts, word limits, and short-answer questions varied enough that every application needed attention.
 
 ---
 
@@ -100,7 +108,7 @@ I also had to learn some American academic communication conventions that were n
 
 This made feedback from people familiar with the US system especially valuable. They helped with the research content and structure, but they also pointed out connotations and expectations I did not know were there. In effect, they were translating not just the language but the academic culture around it.
 
-The most useful structural change was to stop treating the statement as a chronological autobiography. I did not need to describe every project or job in equal detail. I needed to give the reader a clear answer to a few questions:
+The most useful structural change was to stop treating the statement as a chronological autobiography. I did not need to describe every project or job equally. I needed to answer a few questions clearly:
 
 * What research problems do I want to work on?
 * Which past experiences prepared me to work on them?
@@ -109,21 +117,19 @@ The most useful structural change was to stop treating the statement as a chrono
 
 I kept a common core but tailored the ending to each program. Replacing one university name with another is not tailoring; I needed to connect particular professors and labs to questions already introduced in the statement.
 
-Start early. The first version will almost certainly be bad, but it gives you something concrete to improve. Leave time for the portals too: seemingly small formatting and short-answer tasks add up quickly.
+I was glad I started early. My first version was bad, but it gave me something concrete to improve.
 
 ---
 
 ### Letters of recommendation
 
-Recommendation letters require the earliest preparation because they are the one part of the application you cannot improve on your own at the last minute. A statement can be rewritten during application season, but a strong letter reflects a working relationship built over months or years.
+Recommendation letters required the earliest preparation because I could not improve them on my own at the last minute. A statement can be rewritten during application season, but a strong letter reflects a working relationship built over months or years.
 
-For a research-focused PhD, the ideal arrangement is often three letters from professors who supervised your work and can discuss how you think, respond to setbacks, and contribute to research. Applicants arrive through many paths, but the important part is that the writers know you well enough to be specific.
+I wanted three professors who had supervised my work and could discuss how I thought, responded to setbacks, and contributed to research. A detailed letter from someone who knew my work was more valuable than a generic one from a famous name.
 
-A detailed letter from someone who directly supervised your research is usually much stronger than a generic letter from a famous professor. The value is in what the writer can actually say about you, not in the prestige of the name at the bottom.
+Despite having extensive industry experience, I did not use a letter from a manager. I wanted all three to address my academic research potential, and professors were also more familiar with this particular kind of recommendation. Industry letters can work well, especially after research-heavy work, but I chose the people who could write the most relevant letters rather than those with the most impressive titles.
 
-Despite having industry experience, I did not use a letter from a manager. I wanted all three letters to address my research potential, and academic PIs regularly write this particular kind of letter. Industry letters can work well, especially when the work involved substantial research or the writer understands academic admissions. The right choice is the person who can write the most informative and relevant letter, not the person with the most impressive title.
-
-Do not be ashamed to ask. Professors are used to recommendation requests, and a clear refusal is better than a vague letter from someone who does not know you well enough to advocate for you. Ask people who genuinely know your work, give them enough time, and provide your CV, statement draft, program list, deadlines, and a reminder of the projects you completed together.
+I was initially uncomfortable asking, but professors are used to recommendation requests, and a clear refusal would have been better than a vague letter. I asked people who genuinely knew my research, gave them enough time, and sent the information they needed about my work, materials, programs, and deadlines.
 
 ---
 
@@ -133,20 +139,17 @@ Do not be ashamed to ask. Professors are used to recommendation requests, and a 
 
 After submitting, there was remarkably little to do except wait. Programs and labs followed different timelines, so silence was hard to interpret and often meant very little. Interview invitations arrived throughout the winter.
 
-I expected interviews to feel like examinations, but most felt like research conversations. Almost every interview revolved around the same core questions:
+When I received an interview invitation from one lab I really wanted to join, I had so much nervous energy that I went for a run to clear my head. It ended up being 12 kilometers.
 
-* Tell me about your research.
-* Why do you want to pursue a PhD?
-* What kinds of problems interest you?
-* Which professors would you like to work with?
+I expected interviews to feel like examinations, but most felt like research conversations about my previous work, why I wanted a PhD, which problems interested me, and which professors I hoped to work with.
 
-At many CS programs, the admissions committee first identifies a broader pool of viable applicants, after which individual labs select people for further consideration. As a result, there may be no standardized interview process even within one department. One lab might arrange a conversation with the PI, another might begin with a current student, and a third might schedule several meetings with different lab members.
+At many CS programs, the admissions committee first identifies a broader pool of applicants, after which individual labs select people for further consideration. The process can therefore vary even within one department: one lab might arrange a conversation with the PI, another might begin with a current student, and a third might schedule several meetings.
 
-Preparing concise explanations of my research helped much more than trying to anticipate technical questions. I prepared a short overview, a few-minute explanation, and a detailed version. Reading recent papers from the professors I was meeting also made the conversations more productive.
+Preparing several lengths of explanation for my research helped much more than trying to anticipate every technical question. Reading recent papers from the professors I was meeting also made the conversations more productive.
 
-I also prepared questions that could not be answered online: how students choose projects, how often the group meets, how collaborations begin, and what happens when a project is not working.
+I prepared questions that could not be answered online, particularly about choosing projects, advising, collaboration, and what happened when research stalled. They helped turn the interviews into conversations rather than one-sided evaluations.
 
-I also absolutely bombed a couple of interviews for programs I really wanted. Preparation helps, but an interview is still an interaction between two people, and not every interaction will go well. Sometimes the interviewer is impatient or the conversation never finds a comfortable rhythm. Sometimes a lab is looking for experience you simply do not have. You can reflect and prepare differently for the next interview, but you cannot undo the conversation, and one bad interview does not mean you are unqualified.
+Even with that preparation, I absolutely bombed a couple of interviews for programs I really wanted. An interview is still an interaction between two people, and not every interaction will go well. Sometimes the interviewer is impatient or the conversation never finds a comfortable rhythm; sometimes a lab is looking for experience you simply do not have. You can reflect and prepare differently for the next one, but you cannot undo the conversation, and one bad interview does not mean you are unqualified for a PhD.
 
 The waiting made it especially easy to replay those conversations and overinterpret every day of silence. My best advice is to make plans that have nothing to do with admissions: continue your research, spend time with friends, exercise, travel, or do anything else that keeps your life moving while decisions arrive.
 
@@ -156,9 +159,9 @@ The waiting made it especially easy to replay those conversations and overinterp
 
 After making offers, US programs often invite admitted students to visit before the decision deadline. These are usually recruitment events rather than another round of evaluation: a chance to experience the department's culture, meet potential advisors and students, and imagine everyday life there.
 
-I could not attend visit days in person because of the war with Iran. While other admitted students were walking around campuses and meeting their potential labmates, I was trying to make the same five- or six-year decision from a bomb shelter. 
+I could not attend visit days in person because of the war with Iran. While other admitted students were walking around campuses and meeting potential labmates, I was trying to make the same five- or six-year decision from a bomb shelter. I was understandably preoccupied with the situation itself, but in hindsight I should have insisted on more remote interaction instead of accepting that I would simply have less information.
 
-If attending in person is not possible, ask the program to help recreate the important parts remotely. A few extra conversations cannot replace a visit, but they can provide context that is difficult to get from websites or formal interviews. If I were doing this again, I would request Zoom meetings with potential advisors, students in their labs, students who had considered several of the same advisors, and people living in the city with partners or families. Each group answers different questions.
+If attending in person is not possible, ask the program to help recreate the important parts remotely. A few extra conversations cannot replace a visit, but they can provide context that is difficult to get from websites or formal interviews. I would request Zoom meetings with potential advisors, students in their labs, students who had considered several of the same advisors, and people living in the city with partners or families, since each group can answer different questions.
 
 ---
 
@@ -179,11 +182,11 @@ These questions were not secondary. Funding, degree requirements, and housing co
 
 ## What I would do differently
 
-If I went through the process again, I would spend more time talking to students in the labs I was seriously considering, since those conversations revealed far more about advising and lab culture than any website could. Because I could not attend visit days, I would be much more proactive about recreating those conversations over Zoom.
+If I went through the process again, I would talk to students in the labs I was seriously considering much earlier. Those conversations revealed more about advising and lab culture than any website could.
 
 The larger lesson is that applicants can see very little of what shapes the outcome. The useful work is researching fit, preparing strong materials, and deciding whether a program can support both the research and the life you want. The rest is largely outside your control.
 
-Looking back, I also spent too much time worrying about admissions outcomes and not enough time appreciating that I was already doing the thing I wanted to build a career around: research. Applications end; the research does not. If you are applying now, keep working on the projects that made you want a PhD in the first place. They will matter long after the decision emails arrive.
+Looking back, I spent too much time worrying about admissions outcomes and not enough time appreciating that I was already doing the thing I wanted to build a career around: research. If you are still several years away from applying, getting involved in research is the most useful preparation I can suggest. It taught me whether I actually enjoyed the work and gave me time to build relationships with people who later supported me. Applications end; the research does not.
 
 ---
 
@@ -196,7 +199,7 @@ Looking back, I also spent too much time worrying about admissions outcomes and 
 * [CS PhD Statements of Purpose](https://cs-sop.notion.site/), a collection of statements and application advice
 * [US CS PhD FAQ](https://parentheticallyspeaking.org/articles/us-cs-phd-faq/), from Parenthetically Speaking
 
-Some departments and student groups also run pre-application mentoring programs, sometimes including statement feedback or conversations with current students. These can be extremely useful, but their deadlines may be much earlier than the actual PhD application deadlines. Look for them early in the cycle rather than waiting until your applications are nearly due.
+Some departments and student groups also run pre-application mentoring programs that offer statement feedback or conversations with current students. Their deadlines can be surprisingly early, so look for them well before applications are due.
 
 ### Anti-resources
 

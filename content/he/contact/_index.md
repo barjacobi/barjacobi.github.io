@@ -2,7 +2,7 @@
 title: "יצירת קשר"
 ---
 
-- [אימייל](mailto:baraveh@gmail.com)
+- [אימייל](mailto:barj@uw.edu)
 - [GitHub](https://github.com/barjacobi)
 - [Google Scholar](https://scholar.google.com/citations?user=Pjly-lwAAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/bar-jacobi/)

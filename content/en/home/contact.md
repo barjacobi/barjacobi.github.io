@@ -14,7 +14,7 @@ weight: 5
     <i class="fab fa-linkedin-in" style="font-size: 1.5rem;"></i>
   </a>
 
-  <a href="mailto:baraveh@gmail.com">
+  <a href="mailto:barj@uw.edu">
     <i class="fas fa-paper-plane" style="font-size: 1.5rem;"></i>
   </a>
 
