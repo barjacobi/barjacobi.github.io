@@ -1,10 +1,10 @@
 ---
-title: "Applying to US PhD Programs from Israel"
+title: "Applying to US PhD Programs from abroad"
 translationKey: "phd-admissions-retrospective"
 date: 2026-07-16T12:00:00+03:00
 tags: ["Career"]
-summary: "My experience applying to US PhD programs from Israel: what surprised me, what helped, and what I would do differently."
-description: "A personal and practical retrospective on applying to computer science and bioinformatics PhD programs from Israel."
+summary: "My experience applying to US PhD programs from abroad: what surprised me, what helped, and what I would do differently."
+description: "A personal and practical retrospective on applying to computer science and bioinformatics PhD programs from abroad."
 ---
 
 This fall, I will join the Computer Science PhD program at the University of Washington. Getting there took more than a year of researching programs, writing essays, interviewing, waiting, and eventually choosing between several options I was genuinely excited about. I applied to programs in computer science, bioinformatics, and related interdisciplinary areas, and because my interests span computational biology, machine learning, and biological modeling, even deciding which departments to apply to became part of the process.
