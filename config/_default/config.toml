@@ -52,7 +52,7 @@ DefaultContentLanguage           = "en"
     title            = "Bar Jacobi"
 
     [languages.en.params]
-        description = "Bar Jacobi is a computational biology researcher and incoming Computer Science PhD student at the University of Washington, working on machine learning for biological sequence and structure."
+        description = "Bar Jacobi is a PhD student in Computer Science & Engineering at the University of Washington, working with Hannele Ruohola-Baker on cellular aging using single-cell data and foundation models."
 
         [[languages.en.params.blocks]]
             id = "intro"
@@ -80,7 +80,7 @@ DefaultContentLanguage           = "en"
     customCSS = ["css/custom.css"]
 
     [languages.he.params]
-        description = "בר יעקבי היא חוקרת בביולוגיה חישובית וסטודנטית נכנסת לדוקטורט במדעי המחשב באוניברסיטת וושינגטון, העוסקת בלמידת מכונה לרצפים ומבנים ביולוגיים."
+        description = "בר יעקבי היא דוקטורנטית במדעי המחשב והנדסה באוניברסיטת וושינגטון, העובדת עם Hannele Ruohola-Baker על הזדקנות תאית באמצעות נתוני תא בודד ומודלי יסוד."
         dateFormat   = "2 בינואר 2006"
         customCSS    = ["css/custom.css"]
         customJS     = ["js/theme.js"]

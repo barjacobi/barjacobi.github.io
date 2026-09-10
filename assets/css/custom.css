@@ -211,6 +211,20 @@ html[data-theme="dark"] .theme-toggle-light { display: inline; }
 .site-main .markdown h3 { font-size: 1.3rem; }
 .site-main .markdown img { height: auto; max-width: 100%; }
 .page-intro { color: var(--muted); margin-bottom: 28px; }
+.dog-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 20px; align-items: start; }
+.dog-gallery a { display: block; }
+.dog-gallery img { display: block; width: 100%; height: auto; border: 1px solid var(--photo-border); border-radius: 4px; }
+.dog-chapter { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 36px; align-items: center; border-top: 1px solid var(--line); padding: 36px 0; }
+.dog-chapter:nth-child(even) .dog-chapter-copy { order: 2; }
+.dog-chapter-copy.markdown h2 { margin: 0 0 16px; }
+.loki-age { color: var(--muted); margin: -12px 0 28px; font-size: 15px; }
+.dog-story-photo { margin: 0; min-width: 0; }
+.dog-story-photo img { display: block; width: 100%; height: auto; border-radius: 4px; border: 1px solid var(--photo-border); }
+.dog-story-photo figcaption { color: var(--muted); font-size: 14px; margin-top: 10px; }
+@media (max-width: 640px) {
+  .dog-chapter { grid-template-columns: 1fr; gap: 22px; padding: 28px 0; }
+  .dog-chapter:nth-child(even) .dog-chapter-copy { order: 0; }
+}
 .publication-group { margin-top: 38px; }
 .publication-group > h2 { border-bottom: 1px solid var(--line); font-size: 1.7rem; padding-bottom: 10px; }
 .publication-list { list-style: none; margin: 0; padding: 0; }
@@ -348,7 +362,7 @@ html[lang="he"] ul, html[lang="he"] ol { padding-right: 1.5em; padding-left: 0; 
   .site-masthead { padding: 28px 0 22px; }
   .masthead-inner { align-items: flex-start; flex-direction: column; gap: 18px; }
   .masthead-actions { align-items: center; flex-wrap: nowrap; gap: 8px; width: 100%; }
-  .masthead-nav { flex: 1; flex-wrap: nowrap; gap: 8px; justify-content: flex-start; }
+  .masthead-nav { flex: 1; flex-wrap: wrap; gap: 0 8px; justify-content: flex-start; }
   .masthead-nav a { align-items: center; display: inline-flex; font-size: 12px; min-height: 42px; white-space: nowrap; }
   .masthead-nav .home-nav-link { display: none; }
   .theme-toggle { flex-basis: 34px; height: 34px; min-height: 34px; width: 34px; }

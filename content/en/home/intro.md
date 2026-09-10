@@ -2,8 +2,8 @@
 weight: 1
 headless: true
 ---
-I am an incoming PhD student in Computer Science at the University of Washington, where I will work on computational approaches for modeling biological systems.
+Hi! I’m Bar, a PhD student in Computer Science & Engineering at the University of Washington, working with Prof. [Hannele Ruohola-Baker](https://sites.uw.edu/ruohola-baker-lab/).
 
-I am completing an M.Sc. in Bioinformatics at Tel Aviv University in [Prof. Adi Stern’s lab](https://sternadi.sites.tau.ac.il/). I develop methods for annotating viral proteins using sequence, predicted structure, evolutionary information, and protein language models.
+I’m broadly interested in using machine learning to understand biological systems and in building computational models that can lead to testable biological questions. Right now, I’m studying how healthy cells transition toward aged states using single-cell data and foundation models, working closely with experimental biologists and collaborators at the Institute for Protein Design.
 
-Before pursuing research in computational biology, I earned a B.Sc. in Computer Science at the Technion and later worked as a Production Engineer at Meta.
+Previously, I completed an M.Sc. in Bioinformatics at Tel Aviv University in [Prof. Adi Stern’s lab](https://sternadi.sites.tau.ac.il/), where I worked on viral evolution and predicting the role of new viral proteins. Before that, I studied Computer Science at the Technion and worked as a Production Engineer at Meta.

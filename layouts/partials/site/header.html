@@ -12,6 +12,7 @@
         <a href="{{ "blog/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}פוסטים{{ else }}Posts{{ end }}</a>
         <a href="{{ "files/bar-jacobi-cv.pdf" | relURL }}">CV</a>
         <a href="{{ "contact/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}יצירת קשר{{ else }}Contact{{ end }}</a>
+        <a{{ if eq .Section "dog-pics" }} aria-current="page"{{ end }} href="{{ "dog-pics/" | relLangURL }}">{{ if eq .Site.Language.Lang "he" }}לוקי{{ else }}Loki{{ end }}</a>
         {{ range .Site.Home.AllTranslations.ByWeight }}{{ if ne .Language.Lang $.Site.Language.Lang }}<a class="language-link" href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName }}</a>{{ end }}{{ end }}
       </nav>
       <button class="theme-toggle" type="button" data-theme-toggle
