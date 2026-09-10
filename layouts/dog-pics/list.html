@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <div class="page-intro markdown">{{ .Content }}</div>
+  {{ $birthday := time.AsTime .Site.Data.loki.approximateBirthday }}
+  {{ $age := sub now.Year $birthday.Year }}
+  {{ if lt (now.Format "0102") ($birthday.Format "0102") }}{{ $age = sub $age 1 }}{{ end }}
+  <p class="loki-age" data-loki-birthday="{{ .Site.Data.loki.approximateBirthday }}">
+    {{ if eq .Site.Language.Lang "he" }}
+      לוקי בת כ־<span data-loki-age>{{ $age }}</span> שנים. אנחנו מעריכים שהיא נולדה באפריל 2023, אז קבענו את <time datetime="{{ .Site.Data.loki.approximateBirthday }}">1 באפריל</time> כיום ההולדת שלה.
+    {{ else }}
+      Loki is about <span data-loki-age>{{ $age }}</span> years old. We estimate she was born in April 2023, so we chose <time datetime="{{ .Site.Data.loki.approximateBirthday }}">April 1</time> as her birthday.
+    {{ end }}
+  </p>
+  {{ $used := slice }}
+  <div class="dog-story">
+    {{ range .Params.chapters }}
+      {{ $used = $used | append .photo }}
+      <section class="dog-chapter">
+        <div class="dog-chapter-copy markdown">
+          <h2>{{ .title }}</h2>
+          {{ .text | markdownify }}
+        </div>
+        {{ partial "loki-photo.html" . }}
+      </section>
+    {{ end }}
+  </div>
+  {{ $photos := resources.Match "loki/*" }}
+  <div class="dog-gallery">
+    {{ range $photos }}
+      {{ if and (not (in $used (path.Base .Name))) (in (slice "image/jpeg" "image/png" "image/webp") .MediaType.Type) }}
+        {{ $preview := .Fit "1000x1000" }}
+        <a href="{{ .RelPermalink }}">
+          <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}"
+               alt="{{ if eq $.Site.Language.Lang "he" }}לוקי{{ else }}Loki{{ end }}" loading="lazy" decoding="async">
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}
+{{ define "customScripts" }}
+  {{ $script := resources.Get "js/loki-age.js" | minify | fingerprint }}
+  <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+{{ end }}

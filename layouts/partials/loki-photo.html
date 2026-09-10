@@ -1,0 +1,11 @@
+{{ $photo := resources.Get (printf "loki/%s" .photo) }}
+{{ with $photo }}
+  {{ $preview := .Fit "1000x1000" }}
+  <figure class="dog-story-photo">
+    <a href="{{ .RelPermalink }}">
+      <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}"
+           alt="{{ $.alt }}" loading="lazy" decoding="async">
+    </a>
+    <figcaption>{{ $.caption }}</figcaption>
+  </figure>
+{{ end }}
