@@ -66,4 +66,4 @@ chapters:
 
 Meet Loki, our rescue dog and my favorite running companion. This is her story, from a very naughty puppy to the magnificent dog she is today.
 
-She is named after Loki, the Norse god of mischief, and she lives up to the name. We do realize it is a bit of a boy's name. In our defense, Loki crosses gender boundaries in the myths, even [taking the form of a mare and giving birth to Sleipnir](https://www.worldhistory.org/Loki/), Odin's eight-legged horse. That is our naming logic, anyway.
+She is named after the Norse god of mischief; yes, it is a bit of a boy’s name, but in our defense, [Loki crosses gender boundaries too](https://www.worldhistory.org/Loki/).
