@@ -2,7 +2,7 @@
 weight: 1
 headless: true
 ---
-היי! אני בר, דוקטורנטית למדעי המחשב באוניברסיטת וושינגטון בסיאטל, בהנחיית פרופ׳ [Hannele Ruohola-Baker](https://sites.uw.edu/ruohola-baker-lab/).
+היי! אני בר, דוקטורנטית למדעי המחשב באוניברסיטת וושינגטון בסיאטל, בהנחיית [פרופ׳ Hannele Ruohola-Baker](https://sites.uw.edu/ruohola-baker-lab/).
 
 אני עוסקת בשימוש בלמידת מכונה כדי לחקור שאלות בביולוגיה. כרגע המחקר שלי מתמקד בתהליכי הזדקנות: אני משתמשת בנתוני single-cell וב-foundation models כדי להבין איך תאים בריאים משתנים עם הגיל, ועובדת בשיתוף פעולה עם חוקרים ניסויים ועם ה-Institute for Protein Design.
 
