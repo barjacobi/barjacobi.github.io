@@ -1,4 +1,4 @@
-{{ define "title" }}<h1 class="cv-title">Curriculum Vitae</h1>{{ end }}
+{{ define "title" }}<h1 class="cv-title">{{ .Site.Title }}</h1>{{ end }}
 {{ define "main" }}
   <nav class="contact-icons cv-contact" aria-label="Professional profiles">
     <a href="{{ .Site.Params.scholar }}" aria-label="Bar Jacobi on Google Scholar" title="Google Scholar">
