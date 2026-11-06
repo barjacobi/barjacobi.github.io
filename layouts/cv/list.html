@@ -1,0 +1,52 @@
+{{ define "title" }}<h1 class="cv-title">Curriculum Vitae</h1>{{ end }}
+{{ define "main" }}
+  <nav class="contact-icons cv-contact" aria-label="Professional profiles">
+    <a href="{{ .Site.Params.scholar }}" aria-label="Bar Jacobi on Google Scholar" title="Google Scholar">
+      <i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span>
+    </a>
+    <a href="{{ .Site.Params.github }}" aria-label="Bar Jacobi on GitHub" title="GitHub">
+      <i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span>
+    </a>
+    <a href="{{ .Site.Params.linkedin }}" aria-label="Bar Jacobi on LinkedIn" title="LinkedIn">
+      <i class="fab fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span>
+    </a>
+  </nav>
+  <div class="cv-sections">
+  {{ range .Site.Data.cv }}
+    <section id="{{ .id }}" class="cv-section{{ if in (slice "awards" "industry" "teaching" "service" "presentations") .id }} cv-section-compact{{ end }}" aria-labelledby="{{ .id }}-heading">
+      <h2 id="{{ .id }}-heading">{{ .title }}</h2>
+      <ul class="cv-entries" lang="en" dir="ltr">
+        {{ range .entries }}
+          <li class="cv-entry{{ if not .date }} cv-entry-undated{{ end }}">
+            {{ with .date }}<p class="cv-date">{{ . }}</p>{{ end }}
+            <div class="cv-entry-copy">
+              <h3>{{ if .title_url }}<a href="{{ .title_url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
+              {{ if .subtitle }}<p class="cv-affiliation">{{ if .subtitle_url }}<a href="{{ .subtitle_url }}">{{ .subtitle }}</a>{{ else }}{{ .subtitle }}{{ end }}</p>{{ end }}
+              {{ if .details_bullets }}
+                <ul class="cv-note cv-research-bullets">{{ range .details }}<li>{{ . }}</li>{{ end }}</ul>
+              {{ else }}
+                {{ $detailURL := .detail_url }}{{ with .details }}{{ range . }}<p class="cv-note">{{ if $detailURL }}<a href="{{ $detailURL }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}</p>{{ end }}{{ end }}
+              {{ end }}
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ if eq .id "research" }}
+      <section id="publications" class="cv-section cv-section-full" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Publications</h2>
+        <ul class="cv-entries" lang="en" dir="ltr">
+          {{ range $.Site.Data.publications }}
+            <li class="cv-entry"><p class="cv-date">{{ .year }}</p><div class="cv-entry-copy">
+              <h3><a href="{{ .doi }}">{{ .title }}</a></h3>
+              <p class="cv-authors">{{ .authors | markdownify }}</p>
+              <p class="cv-affiliation"><em>{{ .venue }}</em></p>
+            </div></li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+  {{ end }}
+  </div>
+{{ end }}
+

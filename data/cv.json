@@ -1,0 +1,208 @@
+[
+  {
+    "id": "education",
+    "title": "Education",
+    "title_he": "השכלה",
+    "entries": [
+      {
+        "date": "2026 – Present",
+        "title": "Ph.D. in Computer Science",
+        "subtitle": "University of Washington",
+        "details": []
+      },
+      {
+        "date": "2024 – 2026",
+        "title": "M.Sc. in Bioinformatics, summa cum laude",
+        "subtitle": "Tel Aviv University",
+        "details": [
+          "Advisor: Adi Stern"
+        ],
+        "detail_url": "https://sternadi.sites.tau.ac.il/"
+      },
+      {
+        "date": "2017 – 2021",
+        "title": "B.Sc. in Computer Science",
+        "subtitle": "Technion – Israel Institute of Technology",
+        "details": []
+      }
+    ]
+  },
+  {
+    "id": "research",
+    "title": "Research Experience",
+    "title_he": "ניסיון מחקרי",
+    "entries": [
+      {
+        "date": "Oct 2024 – Sep 2026",
+        "title": "Graduate Student",
+        "subtitle": "Stern Lab, Tel Aviv University",
+        "details": [
+          "Developed machine learning methods for viral protein function prediction using protein language models and structural representations.",
+          "Studied within-host SARS-CoV-2 evolution and genetic diversity."
+        ],
+        "subtitle_url": "https://sternadi.sites.tau.ac.il/",
+        "details_bullets": true
+      },
+      {
+        "date": "Oct 2020 – Jul 2021",
+        "title": "Research Assistant",
+        "subtitle": "Accelerated Computing Systems Lab, Technion",
+        "details": [
+          "Compiler techniques for trusted execution environments."
+        ],
+        "subtitle_url": "https://acsl.ece.technion.ac.il/"
+      },
+      {
+        "date": "Oct 2019 – Jul 2020",
+        "title": "Research Assistant",
+        "subtitle": "Hiroshi Fujiwara Cyber Security Research Center, Technion",
+        "details": [
+          "Authentication protocols for in-vehicle CAN buses."
+        ],
+        "subtitle_url": "https://cyber.technion.ac.il/home/"
+      }
+    ]
+  },
+  {
+    "id": "awards",
+    "title": "Fellowships & Awards",
+    "title_he": "מלגות ופרסים",
+    "entries": [
+      {
+        "date": "2026",
+        "title": "European Informatics Endowed Student Award",
+        "subtitle": "University of Washington",
+        "details": [],
+        "title_url": "https://www.cs.washington.edu/giving/student-excellence/graduate-fellowships/"
+      },
+      {
+        "date": "2026",
+        "title": "Excellence in Research Award",
+        "subtitle": "Tel Aviv University",
+        "details": []
+      },
+      {
+        "date": "2025 – 2026",
+        "title": "Warren Alpert Computational Biology and AI Network Fellowship",
+        "subtitle": "UCLA",
+        "details": []
+      },
+      {
+        "date": "2024 – 2026",
+        "title": "Edmond J. Safra Center for Bioinformatics Fellowship",
+        "subtitle": "Tel Aviv University",
+        "details": [],
+        "title_url": "https://safrabio.cs.tau.ac.il/"
+      },
+      {
+        "date": "2019 – 2020",
+        "title": "Dean’s Excellence Award",
+        "subtitle": "Technion – Israel Institute of Technology",
+        "details": []
+      }
+    ]
+  },
+  {
+    "id": "industry",
+    "title": "Industry Experience",
+    "title_he": "ניסיון בתעשייה",
+    "entries": [
+      {
+        "date": "2021 – 2024",
+        "title": "Production Engineer, Facebook Lite",
+        "subtitle": "Meta (Facebook)",
+        "details": [
+          "Developed large-scale infrastructure and automation supporting software development and release workflows."
+        ],
+        "title_url": "https://engineering.fb.com/category/production-engineering/"
+      }
+    ]
+  },
+  {
+    "id": "teaching",
+    "title": "Teaching Experience",
+    "title_he": "ניסיון בהוראה",
+    "entries": [
+      {
+        "date": "Autumn 2026 – Present",
+        "title": "Teaching Assistant, Machine Learning",
+        "subtitle": "University of Washington",
+        "details": []
+      },
+      {
+        "date": "Autumn 2024 – Spring 2026",
+        "title": "Teaching Assistant, Python Programming for Engineers",
+        "subtitle": "Tel Aviv University",
+        "details": []
+      },
+      {
+        "date": "Spring 2021",
+        "title": "Teaching Assistant, Advanced Operating Systems",
+        "subtitle": "Technion – Israel Institute of Technology",
+        "details": []
+      }
+    ]
+  },
+  {
+    "id": "presentations",
+    "title": "Presentations & Conferences",
+    "title_he": "כנסים והרצאות",
+    "entries": [
+      {
+        "date": "2026",
+        "title": "Edmond J. Safra Center for Bioinformatics Annual Retreat",
+        "subtitle": "Tel Aviv · Poster · 2nd place",
+        "details": [],
+        "title_url": "https://safrabio.cs.tau.ac.il/annual_retreat_2026"
+      },
+      {
+        "date": "2025",
+        "title": "Computational Genomics Summer Institute (CGSI)",
+        "subtitle": "UCLA · Long program trainee · Oral presentation",
+        "details": [],
+        "title_url": "https://computationalgenomics.bioinformatics.ucla.edu/"
+      },
+      {
+        "date": "2025",
+        "title": "SBCR Conference: Viruses Across Domains of Life",
+        "subtitle": "Tel Aviv · Poster",
+        "details": [],
+        "title_url": "https://en-lifesci.tau.ac.il/sbcr/conferences/about-the-2nd-sbcr-conference-viruses-across-domains-of-life/?tab=0"
+      },
+      {
+        "date": "2021",
+        "title": "3rd Israeli Conference on Hardware and Side-Channel Attacks",
+        "subtitle": "Remote · Student competition · Oral presentation",
+        "details": [],
+        "title_url": "https://ichsa.sise.bgu.ac.il/2021/Students"
+      }
+    ]
+  },
+  {
+    "id": "service",
+    "title": "Service & Outreach",
+    "title_he": "מנהיגות ופעילות קהילתית",
+    "entries": [
+      {
+        "date": "2025",
+        "title": "CV Workshop Speaker",
+        "subtitle": "Technion Career Week",
+        "details": [],
+        "title_url": "https://www.facebook.com/share/p/1F5YM9r1v3/"
+      },
+      {
+        "date": "2016 – 2017, 2022",
+        "title": "Volunteer Instructor, Java Programming",
+        "subtitle": "she codes;",
+        "details": [],
+        "subtitle_url": "https://she-codes.org/"
+      },
+      {
+        "date": "2018 – 2020",
+        "title": "Student Representative",
+        "subtitle": "Technion Student Association",
+        "details": []
+      }
+    ]
+  }
+]

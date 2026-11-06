@@ -1,8 +1,5 @@
 ---
 title: "CV"
-description: "Curriculum vitae for Bar Jacobi."
+aliases: ["/he/cv/"]
+description: "Bar Jacobi’s education, research, publications, professional experience, fellowships, and service."
 ---
-
-My CV will be available here soon.
-
-**TODO:** Place the PDF at `static/files/bar-jacobi-cv.pdf`. Once that file exists, the site navigation will link directly to it.
