@@ -2,7 +2,9 @@
 weight: 1
 headless: true
 ---
-Hi! I’m Bar, a PhD student in Computer Science & Engineering at the [University of Washington](https://www.cs.washington.edu/).
+Hi! I’m Bar.
+
+<span class="intro-role">A PhD student in Computer Science & Engineering at the <a href="https://www.cs.washington.edu/">University of Washington</a>.</span>
 
 I’m interested in using machine learning to understand biological systems and generate testable biological questions.
 

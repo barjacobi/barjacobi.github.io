@@ -476,3 +476,42 @@ html[data-theme="dark"] .cv-sections { --cv-accent: #e6b6c4; --cv-date: #b9aaa5;
 .cv-research-bullets li { display: list-item; color: var(--cv-note); }
 .cv-research-bullets li::marker { color: var(--cv-note); }
 .cv-research-bullets li + li { margin-top: 3px; }
+
+/* Homepage: a relaxed portrait introduction and a focused publication panel. */
+.academic-home .home-content { padding-top: 64px; }
+.academic-home .profile { align-items: center; gap: 42px; margin-bottom: 36px; }
+.academic-home .profile-photo { align-self: center; height: auto; border-radius: 8px; box-shadow: 0 12px 32px var(--photo-shadow); }
+.academic-home .profile-copy { min-width: 0; }
+.academic-home .intro-copy > p:first-child { font-family: Georgia, "Times New Roman", serif; font-size: clamp(23px, 3vw, 28px); letter-spacing: -.025em; line-height: 1.4; margin-bottom: 18px; text-wrap: pretty; }
+.academic-home .intro-copy > p { line-height: 1.8; }
+.academic-home .intro-copy a { text-decoration: none; text-underline-offset: 3px; }
+.academic-home .intro-copy a:hover { text-decoration: underline; }
+.academic-home .intro-copy > ul { border-top: 1px solid var(--line); list-style: none; margin: 24px 0 0; padding: 18px 0 0; font-size: 14px; }
+.academic-home .intro-copy > ul > li { margin: 0 0 12px; line-height: 1.65; }
+.academic-home .intro-copy > ul strong { font-weight: 500; }
+.academic-home .intro-copy ul ul { list-style: none; margin: 4px 0 0; padding: 0; font-size: 13px; }
+.academic-home .intro-copy ul ul li { color: var(--muted); }
+.academic-home .home-content > .contact-icons { border-bottom: 1px solid var(--line); padding: 16px 0; gap: 10px 30px; }
+.academic-home .home-publications { border-top: 0; padding-top: 42px; }
+.academic-home .publication-group > h2 { border-bottom: 0; color: var(--link); font-size: 25px; font-weight: 400; margin-bottom: 20px; padding: 0; }
+.academic-home .publication-entry { background: var(--footer-bg); border: 1px solid var(--line); border-radius: 6px; padding: 26px 28px; }
+.academic-home .publication-entry + .publication-entry { margin-top: 18px; }
+.academic-home .publication-entry h3 { font-size: 21px; font-weight: 400; line-height: 1.45; margin: 0 0 12px; text-wrap: pretty; }
+.academic-home .publication-entry h3 a { color: var(--text); text-decoration: none; }
+.academic-home .publication-entry h3 a:hover { color: var(--link); }
+.academic-home .publication-authors { font-size: 13px; line-height: 1.8; }
+.academic-home .publication-meta { font-size: 14px; margin: 12px 0; }
+.academic-home .publication-entry > p:not([class]) { color: var(--muted); font-size: 14px; line-height: 1.75; }
+.academic-home .publication-links { margin-top: 16px; }
+@media (max-width: 640px) {
+  .academic-home .home-content { padding-top: 34px; }
+  .academic-home .profile { gap: 30px; }
+  .academic-home .profile-photo { width: min(280px, 100%); }
+  .academic-home .intro-copy > p:first-child { font-size: 25px; }
+  .academic-home .home-content > .contact-icons { gap: 8px 22px; }
+  .academic-home .home-publications { padding-top: 32px; }
+  .academic-home .publication-entry { padding: 22px; }
+  .academic-home .publication-entry h3 { font-size: 20px; }
+}
+
+.academic-home .intro-role { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.8; }
