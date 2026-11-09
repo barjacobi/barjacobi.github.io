@@ -1,5 +1,14 @@
 {{ define "title" }}<h1 class="cv-title">{{ .Site.Title }}</h1>{{ end }}
 {{ define "main" }}
+  <details class="cv-toc">
+    <summary><span aria-hidden="true">☰</span> Jump to</summary>
+    <nav aria-label="CV sections">
+      {{ range .Site.Data.cv }}
+        <a href="#{{ .id }}">{{ .title }}</a>
+        {{ if eq .id "research" }}<a href="#publications">Publications</a>{{ end }}
+      {{ end }}
+    </nav>
+  </details>
   <nav class="contact-icons cv-contact" aria-label="Professional profiles">
     <a href="{{ .Site.Params.scholar }}" aria-label="Bar Jacobi on Google Scholar" title="Google Scholar">
       <i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span>
@@ -50,3 +59,10 @@
   </div>
 {{ end }}
 
+
+{{ define "customScripts" }}
+  {{ with resources.Get "js/cv-toc.js" }}
+    {{ $script := . | minify | fingerprint }}
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+  {{ end }}
+{{ end }}
